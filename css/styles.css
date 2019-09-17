@@ -3,6 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Parisienne);
 @import url(https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+@import url(https://fonts.googleapis.com/css?family=Sacramento);
 
 html
 {
@@ -28,6 +29,7 @@ body
 .navbar-nav
 {
     font-family: 'Quicksand', serif;
+    font-weight: bold;
     font-size: 24px;
 }
 .parallax 
@@ -61,7 +63,7 @@ body
 }
 
 h1 {
-    font-family: 'Herr Von Muellerhoff', serif;
+    font-family: 'Herr Von Muellerhoff', cursive;
     font-size: 96px;
     text-align: center;
     padding-bottom: 20px;
@@ -75,8 +77,8 @@ h1 {
 }
 h2
 {
-    font-family: 'Quicksand', serif;
-    font-size: 24px;
+    font-family: 'Sacramento', cursive;
+    font-size: 36px;
     text-align: center;
     padding-bottom: 20px;
     text-indent: 20px;
@@ -86,8 +88,8 @@ h2
 }
 p 
 {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-family: sans-serif;
     font-size: 25px;
     text-align: left;
@@ -108,12 +110,10 @@ section {
 }
 
 aside {
- flex: 1;
- 
- padding-left: 20px; 
-}
+ flex: 3;
+ }
 
 article {
-    padding-left: 20px;
-   
+    
+     flex: 3;  
 }
