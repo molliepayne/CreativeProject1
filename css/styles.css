@@ -117,3 +117,20 @@ article {
     
      flex: 3;  
 }
+.wrap{
+    width:100%;
+    margin:0 auto;
+}
+.leftside{
+float:left;
+    width:48%;
+    height:400px;
+   
+    margin:0 auto;}
+.rightside{
+     float:right;
+    width:48%;
+    height:400px;
+    
+    margin:0 auto;
+}
